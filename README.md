@@ -1,15 +1,15 @@
 # Disaster Response Pipeline Project
 
-### Project Motivation:
+## Project Motivation:
 
 I made use of the data engineering concepts to analyze disaster data from Figure Eight to build a model for an API that classifies disaster messages.
-### File Structure:
+## File Structure:
 
 	- app
-	 - template
+	 -- template
 	 	- master.html  # main page of web app
 	 	- go.html  # classification result page of web app
-	 - run.py  # Flask file that runs app
+	 -- run.py  # Flask file that runs app
 
 	- data
 	- disaster_categories.csv  # data to process 
