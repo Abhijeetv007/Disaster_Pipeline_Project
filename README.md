@@ -43,5 +43,7 @@ Type a message :Hurricane lead to water and food shortage in costa rica
 
 ### Commit
 1-Change some spelling in app's code
+
 2-Explaning the code
-3-
+
+3-Changes some code in model's code
