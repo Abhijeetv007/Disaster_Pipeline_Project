@@ -1,7 +1,5 @@
 import sys
-
 import sqlite3
-
 import pandas as pd
 from sqlalchemy import create_engine
 from string import punctuation
