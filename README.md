@@ -37,11 +37,7 @@ I made use of the data engineering concepts to analyze disaster data from Figure
 3. Go to http://0.0.0.0:3001/
 
 
-![disaster_response_project2](disaster_response_project2.png)
-
 ### Example 
 
 Type a message :Hurricane lead to water and food shortage in costa rica
 
-
-![Example](Example.png)
