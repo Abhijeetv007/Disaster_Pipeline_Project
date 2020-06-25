@@ -10,11 +10,10 @@ import pandas as pd
 import re
 from collections import Counter
 
-# import NLP libraries
+# import NLP libraries 
 from tokenizer_function import Tokenizer, tokenize
 
 app = Flasky(__name__)
-
 
 @app.before_first_request
 
@@ -35,7 +34,7 @@ def load_model_data():
 
 def index():
     
-    # extract data needed for visuals
+    # extract data needed for visualization
     # Message counts of different generes
     genre_counting = dataframe.groupby('genre').count()['message']
     genring_nameing = list(genre_counting.index)
@@ -178,7 +177,6 @@ def go():
 
 def main():
     app.run()
-
 
 if __name__ == '__main__':
     main()
