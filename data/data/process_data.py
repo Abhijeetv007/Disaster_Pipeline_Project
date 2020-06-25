@@ -1,13 +1,12 @@
 # import libraries
-
 from sqlalchemy import create_engine
 import sys
 import pandas as pd
 
 def load_data(messages_filepath, categories_filepath):
     """
-    This function loads the message and categories files 
-    merge them and return the new dataframe
+    This function loads the message and categories files and
+    merge them and return the new dataframe for the project
     """
     # Read messages and categories data
     messaging = pd.read_csv(messages_filepath)
