@@ -42,4 +42,6 @@ I made use of the data engineering concepts to analyze disaster data from Figure
 Type a message :Hurricane lead to water and food shortage in costa rica
 
 ### Commit
-Change some spelling in app's code
+1-Change some spelling in app's code
+2-Explaning the code
+3-
