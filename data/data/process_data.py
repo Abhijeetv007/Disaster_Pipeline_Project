@@ -1,7 +1,8 @@
 # import libraries
-from sqlalchemy import create_engine
 import sys
 import pandas as pd
+import numpy as n
+from sqlalchemy import create_engine
 
 def load_data(messages_filepath, categories_filepath):
     """
@@ -50,8 +51,8 @@ def save_data(dataframe, database_filename):
    Take the input dataframe and save it into sqlite database
     """
     # Creating sqlite engine and save the dataframe with the name message
-    engine_process = create_engine('sqlite:///'+ database_filename)
-    dataframe.to_sql('messaging', engine_process, index=False)  
+    engine_process = create_engine('sqlite:///Messages.db')
+    dataframe.to_sql('messaging', engine_process, index=False,if_exists='replace')  
 
 
 def main():
