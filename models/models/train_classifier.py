@@ -25,8 +25,8 @@ def load_data(database_filepath):
     """This function loads data from given database path and returns a dataframe
     """
     # load data from database and then reading
-    train_engine = create_engine('sqlite:///'+ database_filepath)
-    dataframe = pd.read_sql_table('messages',train_engine)
+    train_engine = create_engine('sqlite:///../data/DisasterResponse.db')
+    dataframe = pd.read_sql_table('DisasterResponse',train_engine)
     
     # define X and Y 
     X = dataframe.message
